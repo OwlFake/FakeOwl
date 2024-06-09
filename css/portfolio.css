@@ -1,0 +1,236 @@
+@font-face {
+    font-family: JuliusSans;
+    src: url("../assets/JuliusSansOne-Regular.ttf");
+}
+
+body{
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    height: 20dvh;
+    background-color: #e9fdfb;
+    width: 100dvw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+
+#headicon{
+    height: 60%;
+}
+
+.mainnav{
+    font-family: JuliusSans;
+    font-size: 26px;
+}
+
+.mainnav a{
+    text-decoration: none;
+    color: #ffd49d;
+    font-weight: bold;
+    transition: color 0.5s ease, font-size 0.5s ease;
+}
+.mainnav a:hover{
+    color: #FF9F1C;
+    font-size: 30px;
+}
+.active{
+    color: #FF9F1C !important;
+    font-size: 30px;
+}
+
+.snappers{
+    height: 80dvh;
+    padding-top: 20dvh;
+    scroll-padding-top: 20dvh;
+    z-index: 20;
+}
+.snapees{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    font-family: JuliusSans;
+}
+.snapees p{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    color:#FF9F1C;
+}
+.contents{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px;
+    gap: 10px
+}
+.card{
+    background-color: #fee8e8;
+    width: 250px;
+    height: 250px;
+    transition: transform 0.5s ease, filter 0.5s ease;
+    border: 0;
+}
+.card:hover{
+    transform: scale(1.05);
+    filter: brightness(90%);
+}
+
+.about{
+    margin-top: 20dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20vw;
+    width: 60vw;
+    font-family: JuliusSans;
+    height: 80dvh;
+}
+.about img{
+    height: 200px;
+    border-radius: 50px;
+}
+.about h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF9F1C;
+}
+.about h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FF9F1C95;
+}
+
+.contact{
+    margin-top: 20dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20vw;
+    width: 60vw;
+    font-family: JuliusSans;
+    height: 80dvh;
+}
+.contact h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF9F1C;
+}
+.contactbutton{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.contactbutton .icon{
+    height: 50px;
+    width: 50px;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+}
+.fb img{
+    height: 100%;
+    width: 100%;
+}
+.gmail img{
+    height: 100%;
+    width: 100%;
+}
+
+.kryo{
+    background-image: url(../assets/kryo/kryo\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.kiddo{
+    background-image: url(../assets/kiddotech/kiddotech\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.eco{
+    background-image: url(../assets/ecokitchen/ecokitchen\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.diecast{
+    background-image: url(../assets/logo/diecastdiary.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jordan{
+    background-image: url(../assets/logo/JLogo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slivalry{
+    background-image: url(../assets/logo/Slivalry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.djdc{
+    background-image: url(../assets/logo/djdc-logo-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.five{
+    background-image: url(../assets/extra/five/surved\ \(3\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.maincont{
+    margin-top: 20dvh;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 20vw;
+    gap: 20px;
+    width: 60vw;
+    font-family: JuliusSans;
+}
+.maincont img{
+    height: 500px;
+}
+.maincont h1{
+    font-weight: bold;
+    font-size: 40px;
+    color: #FF9F1C;
+}
+.maincont h3{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    color: #FF9F1C95;
+}
+
